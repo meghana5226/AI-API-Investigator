@@ -21,7 +21,7 @@ The LLM backend is swappable between a fully self-hosted, zero-API-key setup (Ol
 
 > Built as a portfolio-grade demonstration of a clean modular-monolith architecture: FastAPI + PostgreSQL on the backend, React + TypeScript on the frontend, a real RAG pipeline (ChromaDB + Sentence Transformers) for AI features, a fully tested codebase (backend + frontend), and two working deployment paths — local Docker Compose and a free-tier cloud stack.
 
-**🔗 Live demo:** _add your deployed Vercel URL here once live — see [DEPLOYMENT.md](DEPLOYMENT.md)_
+**🔗 Live demo:**https://ai-api-investigator.vercel.app/
 **🔑 Demo login:** `demo@apiinvestigator.dev` / `DemoPass123!`
 
 ---
