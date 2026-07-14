@@ -1,7 +1,7 @@
 # AI API Investigator
 
 <p align="center">
-  <img src="docs/screenshots/landing.png" alt="AI API Investigator — landing page" width="800" />
+  <img src="docs/screenshots/Dashboard.png" alt="AI API Investigator — landing page" width="800" />
 </p>
 
 <p align="center">
@@ -63,7 +63,7 @@ Developers integrating with a new API usually start by reading a spec file cover
 
 | | |
 |---|---|
-| ![Dashboard](docs/screenshots/dashboard.png and docs/screenshots/dashboard2.png) **Dashboard** — all investigated APIs at a glance | ![API Explorer](docs/screenshots/API-AI-Analysis.png) **API Explorer** — AI summary, risk report, endpoint list |
+| ![Dashboard](docs/screenshots/dashboard2.png) **Dashboard** — all investigated APIs at a glance | ![API Explorer](docs/screenshots/API-AI-Analysis.png) **API Explorer** — AI summary, risk report, endpoint list |
 | ![AI Chat](docs/screenshots/History.png) **History** — Complete history is stored | ![Reports](docs/screenshots/FinalReport.png) **Reports** — one-click Markdown/JSON export |
 
 ## Architecture
