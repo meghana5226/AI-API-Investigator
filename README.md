@@ -21,7 +21,11 @@ The LLM backend is swappable between a fully self-hosted, zero-API-key setup (Ol
 
 > Built as a portfolio-grade demonstration of a clean modular-monolith architecture: FastAPI + PostgreSQL on the backend, React + TypeScript on the frontend, a real RAG pipeline (ChromaDB + Sentence Transformers) for AI features, a fully tested codebase (backend + frontend), and two working deployment paths — local Docker Compose and a free-tier cloud stack.
 
-**🔗 Live demo:** https://ai-api-investigator.vercel.app/
+**🔗 Live demo:**
+- Frontend: https://ai-api-investigator.vercel.app
+- Backend API: https://ai-api-investigator-backend.onrender.com
+- API Docs: https://ai-api-investigator-backend.onrender.com/api/docs
+  
 **🔑 Demo login:** `demo@apiinvestigator.dev` / `DemoPass123!`
 
 ---
@@ -63,7 +67,7 @@ Developers integrating with a new API usually start by reading a spec file cover
 
 | | |
 |---|---|
-| ![Dashboard](docs/screenshots/dashboard2.png) **Dashboard** — all investigated APIs at a glance | ![API Explorer](docs/screenshots/API-AI-Analysis.png) **API Explorer** — AI summary, risk report, endpoint list |
+| ![Dashboard](docs/screenshots/Dashboard2.png) **Dashboard** — all investigated APIs at a glance | ![API Explorer](docs/screenshots/API-AI-Analysis.png) **API Explorer** — AI summary, risk report, endpoint list |
 | ![AI Chat](docs/screenshots/History.png) **History** — Complete history is stored | ![Reports](docs/screenshots/FinalReport.png) **Reports** — one-click Markdown/JSON export |
 
 ## Architecture
