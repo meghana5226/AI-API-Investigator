@@ -19,7 +19,7 @@ class Settings(BaseSettings):
     DEBUG: bool = True
 
     # Security
-    SECRET_KEY: str = "change-this-secret-key-in-production"
+    SECRET_KEY: str = "base64:1b6uCpcMWdpgo0GcQ5/7Nv+CTPu5P45WzL30C95Gnl8="
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24
     REFRESH_TOKEN_EXPIRE_MINUTES: int = 60 * 24 * 7
@@ -31,7 +31,7 @@ class Settings(BaseSettings):
     REDIS_URL: str = "redis://localhost:6379/0"
 
     # CORS
-    BACKEND_CORS_ORIGINS: List[str] = ["http://localhost:5173", "http://localhost:3000"]
+    BACKEND_CORS_ORIGINS: List[str] = ["https://ai-api-investigator.vercel.app","http://localhost:5173","http://localhost:3000"]
 
     # File uploads
     UPLOAD_DIR: str = "uploads"
